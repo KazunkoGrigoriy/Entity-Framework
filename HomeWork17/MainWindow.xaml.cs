@@ -29,7 +29,6 @@ namespace HomeWork17
         public MainWindow()
         {
             InitializeComponent();
-            //Preparing();
         }
 
         private void dataGrid_CurrentCellChanged(object sender, EventArgs e)
