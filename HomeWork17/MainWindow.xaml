@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="478.711" Width="833.501" Loaded="Window_Loaded">
     <Grid Margin="0,0,0,1">
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="425" Margin="10,10,0,0" VerticalAlignment="Top" Width="435" AutoGenerateColumns="false" CurrentCellChanged="dataGrid_CurrentCellChanged" PreviewKeyDown="dataGrid_PreviewKeyDown">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="402" Margin="10,10,0,0" VerticalAlignment="Top" Width="435" AutoGenerateColumns="false" CurrentCellChanged="dataGrid_CurrentCellChanged" PreviewKeyDown="dataGrid_PreviewKeyDown">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="id"
                                     Width="20"
@@ -35,7 +35,7 @@
                                     Header="Email"/>
             </DataGrid.Columns>
         </DataGrid>
-        <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Height="425" Margin="459,10,0,0" VerticalAlignment="Top" Width="358" AutoGenerateColumns="False">
+        <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Height="402" Margin="459,10,0,0" VerticalAlignment="Top" Width="358" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding ID}" Width="20"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="100"/>

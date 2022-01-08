@@ -35,6 +35,7 @@ namespace HomeWork17
         {
             context.SaveChanges();
             dataGrid.ItemsSource = context.TableClient.Local.ToBindingList<TableClient>();
+
         }
 
         private void dataGrid_PreviewKeyDown(object sender, KeyEventArgs e)
